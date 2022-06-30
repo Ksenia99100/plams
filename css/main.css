@@ -1,0 +1,296 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #131313;
+  color: #fff;
+}
+
+.bg {
+  background-image: url("../img/main-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1500px;
+  height: 1501px;
+  position: absolute;
+  top: 575px;
+  z-index: 3;
+}
+
+.container {
+  max-width: 1596px;
+}
+
+.mt-64 {
+  margin-top: 64px;
+  z-index: 5;
+}
+
+header {
+  margin-top: 73px;
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  font-family: "Steppe", sans-serif;
+}
+header .logo a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF !important;
+  text-decoration: none;
+}
+header .row {
+  padding: 30px 0;
+}
+
+.links a {
+  font-family: "Steppe", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+  margin-right: 80px;
+}
+.links a:last-child {
+  margin-right: 0;
+}
+
+.ml-10 {
+  margin-left: 5.7rem;
+}
+
+h1 {
+  font-family: "Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 115px;
+  line-height: 129px;
+  color: #FFFFFF;
+  margin: 46px 0 80px 0;
+}
+
+.description {
+  max-width: 593px;
+  font-family: "Steppe", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #FFF;
+}
+
+.card-img img {
+  width: 198px;
+}
+.card-text {
+  margin-top: 17px;
+  font-family: "Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.card-button {
+  background: #ED5722;
+  width: 147px;
+  font-family: "Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.2692px;
+  line-height: 18px;
+  color: #000000;
+  padding: 5px 47px;
+  display: block;
+  text-decoration: none;
+  margin-top: 27px;
+  margin-left: auto;
+}
+
+footer {
+  margin-top: 400px;
+  padding: 30px 0 26px 0;
+  position: relative;
+  z-index: 5;
+}
+footer .container {
+  border-top: 1px solid #FFFFFF;
+}
+footer a {
+  font-family: "Steppe", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+footer .logo a {
+  margin-left: 100px;
+}
+footer .logo a:last-child {
+  margin-left: 110px;
+}
+
+.item-text {
+  max-width: 401px;
+  margin: 0 auto;
+  margin-top: 103px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.2727px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+.item-links {
+  display: block;
+}
+.item-links a {
+  display: block;
+  font-family: "Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 72px;
+  color: #FFFFFF;
+  text-decoration: none;
+  max-width: max-content;
+  margin: 0 0 30px 116px;
+}
+
+main {
+  position: relative;
+}
+
+.line {
+  height: 113%;
+  width: 1px;
+  background-color: #FFFFFF;
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: -45px;
+}
+
+.data-price {
+  max-width: 551px;
+  text-align: right;
+  font-family: "Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 45px;
+  margin-top: 30px;
+  color: #FFFFFF;
+}
+.data-count {
+  margin-top: 75px;
+}
+.data-header {
+  width: 263px;
+  height: 23px;
+  background-color: #777777;
+  margin: 0 auto 76px;
+}
+.data-body {
+  display: flex;
+  justify-content: center;
+  padding-top: 14px;
+}
+.data-body span {
+  width: 33px;
+  height: 35px;
+  background-color: #777777;
+  display: block;
+  margin-right: 14px;
+  cursor: pointer;
+}
+.data-body span.no-active {
+  background-color: #131313 !important;
+  cursor: default !important;
+}
+.data-body span:hover {
+  background-color: #FFF;
+}
+.data-body span.active {
+  background-color: #ED5722;
+}
+
+hr {
+  max-width: 525px;
+  margin: 60px auto 0;
+}
+
+.btn-buy {
+  margin-top: 127px !important;
+  font-family: "Garamond";
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 33.6774px !important;
+  line-height: 37px !important;
+  color: #000000 !important;
+  display: block !important;
+  max-width: max-content !important;
+  padding: 12px 96px !important;
+  background-color: #ED5722 !important;
+  margin-left: 37% !important;
+}
+
+.buy-data {
+  max-width: 411px;
+  margin-left: 116px;
+  margin-top: 77px;
+}
+.buy-data p {
+  font-family: "Steppe", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.buy-data-margin {
+  margin-top: 272px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bye {
+  padding: 324px 0;
+  background-image: url("../img/bye.png");
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+}
+.bye .btn-buy {
+  margin: 0 auto !important;
+  text-decoration: none;
+}
+
+.return-back {
+  display: none;
+}
+.return-back.active {
+  display: block;
+}
+
+/*# sourceMappingURL=main.css.map */
